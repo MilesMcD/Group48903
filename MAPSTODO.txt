@@ -1,0 +1,16 @@
+SUPPORT FOR THE MAP API: REQUIRED ELEMENTS
+
+DATABASE (Torey):
+	Each Building will require (at minimum:
+		1. Name
+		2. A string of form "lat, lng" (I have a list of these available)
+		3. (web?) address for attached page
+		
+		
+
+NATIVESCRIPT SHELL (YZ): 
+	The map uses a <div> with the id="map" as a viewport to run. We can work together to configure its size. You should be able to take the <script> from my html page and run it in-app if you create a <div id="map"> element, I think.
+
+	
+MAPS (Miles)
+	I need to move the script section to a javascript file that loads with the page. The current organization is messy.
