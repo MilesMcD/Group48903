@@ -14,3 +14,5 @@ NATIVESCRIPT SHELL (YZ):
 	
 MAPS (Miles)
 	I need to move the script section to a javascript file that loads with the page. The current organization is messy.
+	Nativescript Maps tutorial: https://code.tutsplus.com/tutorials/code-a-real-time-nativescript-app-geolocation-and-google-maps--cms-29001
+	MAPS NATIVESCRIPT STUFF IS CURRENTLY LOCATED IN:  apps/main-view-model.js & maing-page.xml !!!!
