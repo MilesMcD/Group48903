@@ -13,12 +13,36 @@ exports.list_all_buildings = function(request, response) {
 	
 };
 
+exports.list_a_building = function(request, response) {
+	Building.findOne({name: request.params.buildName}, function(err, building) {
+		if (err)
+			response.send(err);
+		else{
+			response.json({building});
+			}
+	});
+};
+
 exports.create_a_building = function(request, response) {
 	var new_building = new Building(request.body);
 	new_building.save(function(err, building) {
 		if (err)
+		{
 			response.send(err);
+		}	
+		else
 		response.json(building);
+		
+	});
+	
+};
+
+exports.delete_a_building = function(request, response) {
+	Building.findOneAndRemove({name: request.params.buildName}, function(err, building) {
+		if (err)
+			response.send(err);
+		else
+		response.json({ message: "building Deleted Successfully."});
 		
 	});
 	
@@ -48,6 +72,7 @@ exports.delete_machine = function(request, response) {
 	Building.remove({_id: request.params.machineId}, function(err, machine) {
 		if (err)
 			response.send(err);
+		else
 		response.json({ message: "Machine Deleted Successfully."});
 		
 	});

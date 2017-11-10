@@ -2,6 +2,9 @@ var Observable = require("data/observable").Observable;
 var mapsModule = require("nativescript-google-maps-sdk");
 var pageModule = require("tns-core-modules/ui/page");
 var { Accuracy } = require("ui/enums");
+var dialogs = require("ui/dialogs");
+var http = require("http");
+
 
 /*
 	Hicks: 42.289148, -85.600481
@@ -21,6 +24,11 @@ var { Accuracy } = require("ui/enums");
 	Crissey: 42.291176, -85.598016
 	
 	*/
+/*
+HTTP REQUEST TESTING
+*/	
+dialogs.alert("test alert functionality").then(function() {console.log("Dialog Closed.");});
+	
 
 var testLocs = ["42.289148, -85.600481", "42.289628, -85.601523", "42.290112, -85.601899", "42.290104, -85.601009", "42.290064, -85.600054", "42.289604, -85.599475"];
 
@@ -57,6 +65,37 @@ function createViewModel() {
 			mapView.addMarker(marker);
 		}
 	}
+	
+	/* JSON TESTING */
+	var getResponse;
+	http.getString("http://10.0.2.2:3000/buildings/Dowing").then(function (r) {
+    getResponse = JSON.parse(r);
+	dialogs.alert(JSON.stringify(getResponse));
+	dialogs.alert(getResponse.building.name);
+	//dialogs.alert(getResponse.Dowing.machines);
+}, function (e) {
+    //// Argument (e) is Error!
+    throw exception(e);
+});
+
+	
+	dialogs.alert("test alert functionality").then(function() {console.log("Dialog Closed.");});
+	//dialogs.alert(getResponse.name);
+	
+	var response;
+	http.request({
+		url: "http://10.0.2.2:3000/buildings",
+		method: "POST",
+		headers: { "Content-Type": "application/json"},
+	content: JSON.stringify({name: "Drawing", machines: ["Espresso machine", "big light"]})
+		}).then(function(r) { 
+		response = r.content.toJSON();
+		alert(response)
+		}, function(e) {
+			throw exception(e)
+		});
+		
+
 	    return viewModel;
 }
 

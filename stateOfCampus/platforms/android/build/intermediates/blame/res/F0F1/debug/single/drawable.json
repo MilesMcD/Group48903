@@ -16,24 +16,24 @@
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.6\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.6\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.6\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
-        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\design_snackbar_background.xml",
