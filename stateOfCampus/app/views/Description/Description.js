@@ -14,7 +14,7 @@ function moveToReport() {
     topmost.navigate("views/Report/Report");
 }
 
-exports.register = function() {
+exports.moveToReport = function() {
     moveToReport();
 };
 exports.back = function() {

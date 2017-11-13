@@ -9,7 +9,9 @@ android {
   defaultConfig {  
     generatedDensities = []
     applicationId = "com.MOB490.stateofCampus" 
-    
+     manifestPlaceholders = [onesignal_app_id: "com.MOB490.stateofCampus",
+                              // Project number pulled from dashboard, local value is ignored.
+                              onesignal_google_project_number: "REMOTE"]
     //override supported platforms
     // ndk {
     //       abiFilters.clear()
@@ -17,7 +19,11 @@ android {
  		// }
   
   }  
+
   aaptOptions {  
     additionalParameters "--no-version-vectors"  
   }  
 } 
+
+
+

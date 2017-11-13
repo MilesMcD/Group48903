@@ -9,24 +9,24 @@ exports.loaded = function(args) {
     page.bindingContext = user;
 };
 
-function completeRegistration() {
+function Report() {
     user.register()
         .then(function() {
             dialogsModule
-                .alert("Your account was successfully created.")
+                .alert("Your report was successfully submitted.")
                 .then(function() {
-                    frameModule.topmost().navigate("views/login/login");
+                    frameModule.topmost().navigate("views/Description/Description");
                 });
         }).catch(function(error) {
             console.log(error);
             dialogsModule
                 .alert({
-                    message: "Unfortunately we were unable to create your account.",
+                    message: "Sorry, we were unable to gain your report.",
                     okButtonText: "OK"
                 });
         });
 }
 
-exports.register = function() {
-    completeRegistration();
+exports.report = function() {
+    Report();
 };

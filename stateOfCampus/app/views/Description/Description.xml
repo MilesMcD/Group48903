@@ -1,12 +1,12 @@
 <Page loaded="loaded">
     <StackLayout>
-        <Image src= stretch="none" horizontalAlignment="left"/>
-<
+        <Image src="image/logo.png" stretch="none" horizontalAlignment="left"/>
+
         <Label text="{{ Building Name }}"  class="tilte"/>
         <Label text="{{ Description: }}" class="description"/>
 
 		<Label text="{{If you get any question,please report!}}" class="hints" />
-        <Button text="Report Now" tap="moveToReport" class="redlink"/>
+        <Button text="Report Now" tap="moveToReport" class="redLink"/>
 		<Button text="back" tap="back" class="link"/>
     </StackLayout>
 </Page>

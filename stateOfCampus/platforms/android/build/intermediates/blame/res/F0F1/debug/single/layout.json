@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
         "merged": "C:\\Users\\YZ\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\YZ\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "C:\\Users\\YZ\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\notification_template_lines_media.xml",
@@ -116,20 +116,20 @@
         "source": "C:\\Users\\YZ\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.0.0-alpha1\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
         "merged": "C:\\Users\\YZ\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\YZ\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\support_simple_spinner_dropdown_item.xml",

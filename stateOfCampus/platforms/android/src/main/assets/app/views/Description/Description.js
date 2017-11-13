@@ -9,24 +9,15 @@ exports.loaded = function(args) {
     page.bindingContext = user;
 };
 
-function completeRegistration() {
-    user.register()
-        .then(function() {
-            dialogsModule
-                .alert("Your account was successfully created.")
-                .then(function() {
-                    frameModule.topmost().navigate("views/login/login");
-                });
-        }).catch(function(error) {
-            console.log(error);
-            dialogsModule
-                .alert({
-                    message: "Unfortunately we were unable to create your account.",
-                    okButtonText: "OK"
-                });
-        });
+function moveToReport() {
+    var topmost = frameModule.topmost();
+    topmost.navigate("views/Report/Report");
 }
 
-exports.register = function() {
-    completeRegistration();
+exports.moveToReport = function() {
+    moveToReport();
+};
+exports.back = function() {
+    var topmost = frameModule.topmost();
+    topmost.navigate("views/Lists/Lists");
 };

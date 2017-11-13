@@ -1,10 +1,12 @@
 <Page loaded="loaded">
     <StackLayout>
-        <Image src="res://logo" stretch="none" horizontalAlignment="center"/>
+        <Image src="image/logo.png" stretch="none" horizontalAlignment="left"/>
 
-        <TextField text="{{ email }}" id="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
-        <TextField text="{{ password }}" secure="true" hint="Password" />
+        <Label text="{{ Building Name }}"  class="tilte"/>
+        <Label text="{{ Description: }}" class="description"/>
 
-        <Button text="Register Now" tap="register" />
+		<Label text="{{If you get any question,please report!}}" class="hints" />
+        <Button text="Report Now" tap="moveToReport" class="redLink"/>
+		<Button text="back" tap="back" class="link"/>
     </StackLayout>
 </Page>
