@@ -11,7 +11,7 @@ public final class R {
 	}
 	public static final class attr {
 		public static final int ambientEnabled = 0x7f0100ea;
-		public static final int buttonSize = 0x7f010114;
+		public static final int buttonSize = 0x7f01011b;
 		public static final int cameraBearing = 0x7f0100db;
 		public static final int cameraMaxZoomPreference = 0x7f0100ec;
 		public static final int cameraMinZoomPreference = 0x7f0100eb;
@@ -20,7 +20,7 @@ public final class R {
 		public static final int cameraTilt = 0x7f0100de;
 		public static final int cameraZoom = 0x7f0100df;
 		public static final int circleCrop = 0x7f0100d9;
-		public static final int colorScheme = 0x7f010115;
+		public static final int colorScheme = 0x7f01011c;
 		public static final int imageAspectRatio = 0x7f0100d8;
 		public static final int imageAspectRatioAdjust = 0x7f0100d7;
 		public static final int latLngBoundsNorthEastLatitude = 0x7f0100ef;
@@ -29,7 +29,7 @@ public final class R {
 		public static final int latLngBoundsSouthWestLongitude = 0x7f0100ee;
 		public static final int liteMode = 0x7f0100e0;
 		public static final int mapType = 0x7f0100da;
-		public static final int scopeUris = 0x7f010116;
+		public static final int scopeUris = 0x7f01011d;
 		public static final int uiCompass = 0x7f0100e1;
 		public static final int uiMapToolbar = 0x7f0100e9;
 		public static final int uiRotateGestures = 0x7f0100e2;
@@ -79,30 +79,32 @@ public final class R {
 		public static final int googleg_standard_color_18 = 0x7f020070;
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0c003a;
-		public static final int adjust_width = 0x7f0c003b;
-		public static final int auto = 0x7f0c0025;
-		public static final int center = 0x7f0c0027;
-		public static final int dark = 0x7f0c0047;
-		public static final int hybrid = 0x7f0c003c;
-		public static final int icon_only = 0x7f0c0044;
-		public static final int light = 0x7f0c0048;
-		public static final int none = 0x7f0c0014;
-		public static final int normal = 0x7f0c0010;
-		public static final int radio = 0x7f0c0067;
-		public static final int satellite = 0x7f0c003d;
-		public static final int standard = 0x7f0c0045;
-		public static final int terrain = 0x7f0c003e;
-		public static final int text = 0x7f0c00a7;
-		public static final int text2 = 0x7f0c00a5;
-		public static final int toolbar = 0x7f0c0089;
-		public static final int wide = 0x7f0c0046;
-		public static final int wrap_content = 0x7f0c0024;
+		public static final int adjust_height = 0x7f0c003b;
+		public static final int adjust_width = 0x7f0c003c;
+		public static final int auto = 0x7f0c0026;
+		public static final int center = 0x7f0c0028;
+		public static final int dark = 0x7f0c0048;
+		public static final int hybrid = 0x7f0c003d;
+		public static final int icon_only = 0x7f0c0045;
+		public static final int light = 0x7f0c0049;
+		public static final int none = 0x7f0c0015;
+		public static final int normal = 0x7f0c0011;
+		public static final int radio = 0x7f0c0068;
+		public static final int satellite = 0x7f0c003e;
+		public static final int standard = 0x7f0c0046;
+		public static final int terrain = 0x7f0c003f;
+		public static final int text = 0x7f0c00a8;
+		public static final int text2 = 0x7f0c00a6;
+		public static final int toolbar = 0x7f0c008a;
+		public static final int wide = 0x7f0c0047;
+		public static final int wrap_content = 0x7f0c0025;
 	}
 	public static final class integer {
 		public static final int google_play_services_version = 0x7f0a0006;
 	}
 	public static final class layout {
+	}
+	public static final class raw {
 	}
 	public static final class string {
 		public static final int common_google_play_services_enable_button = 0x7f060013;
@@ -154,7 +156,7 @@ public final class R {
 		public static final int MapAttrs_uiZoomGestures = 12;
 		public static final int MapAttrs_useViewLifecycle = 13;
 		public static final int MapAttrs_zOrderOnTop = 14;
-		public static final int[] SignInButton = { 0x7f010114, 0x7f010115, 0x7f010116 };
+		public static final int[] SignInButton = { 0x7f01011b, 0x7f01011c, 0x7f01011d };
 		public static final int SignInButton_buttonSize = 0;
 		public static final int SignInButton_colorScheme = 1;
 		public static final int SignInButton_scopeUris = 2;

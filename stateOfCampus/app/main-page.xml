@@ -36,5 +36,6 @@ https://docs.nativescript.org/ui/components.
     zoom="{{ zoom }}"
     mapReady="{{ onMapReady }}"
 />
+< Button text="Lists" class="link" tap="moveToList" horizontalAlignment="center"/>
   </GridLayout>
 </Page>
