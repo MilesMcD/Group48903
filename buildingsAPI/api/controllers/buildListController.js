@@ -37,6 +37,16 @@ exports.create_a_building = function(request, response) {
 	
 };
 
+exports.delete_all_buildings = function(request, response) {
+	Building.remove({}, function(err, building) {
+	if (err)
+		response.send(err);
+	else
+		response.json({message: "All building deleted."});
+	});
+	
+};
+
 exports.delete_a_building = function(request, response) {
 	Building.findOneAndRemove({name: request.params.buildName}, function(err, building) {
 		if (err)

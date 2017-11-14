@@ -35,6 +35,7 @@ https://docs.nativescript.org/ui/components.
     longitude="{{ longitude }}"
     zoom="{{ zoom }}"
     mapReady="{{ onMapReady }}"
-/>
+	markerSelect="onMarkerEvent">
+</maps:mapView>
   </GridLayout>
 </Page>

@@ -24,13 +24,7 @@ var http = require("http");
 	Crissey: 42.291176, -85.598016
 	
 	*/
-/*
-HTTP REQUEST TESTING
-*/	
-dialogs.alert("test alert functionality").then(function() {console.log("Dialog Closed.");});
-	
-
-var testLocs = ["42.289148, -85.600481", "42.289628, -85.601523", "42.290112, -85.601899", "42.290104, -85.601009", "42.290064, -85.600054", "42.289604, -85.599475"];
+//var testLocs = ["42.289148, -85.600481", "42.289628, -85.601523", "42.290112, -85.601899", "42.290104, -85.601009", "42.290064, -85.600054", "42.289604, -85.599475"];
 
 /*
 This function will take strings of format "lat, lng" and turn them into an integer array.
@@ -43,58 +37,46 @@ var latLng = [parseFloat(split[0]), parseFloat(split[1])];
 return  latLng;
 	
 	}
+	
 
 var mapView;
+/*
+Prepares the view model & populates it with markers taken from the database.
+*/
 function createViewModel() {
     var viewModel = new Observable();
     viewModel.latitude = 42.290447;
     viewModel.longitude = -85.601068;
     viewModel.zoom = 18;
 
+		/* JSON GET  */
+	var getResponse;
 
-
-
-
+	
 	viewModel.onMapReady = function(args) {
 		mapView = args.object;
-		for(var i = 0; i < testLocs.length;i++)
-		{
-			var marker = new mapsModule.Marker();
-			marker.position = mapsModule.Position.positionFromLatLng(
-			latLngToMaps(testLocs[i])[0], latLngToMaps(testLocs[i])[1]);
-			mapView.addMarker(marker);
-		}
-	}
-	
-	/* JSON TESTING */
-	var getResponse;
-	http.getString("http://10.0.2.2:3000/buildings/Dowing").then(function (r) {
-    getResponse = JSON.parse(r);
-	dialogs.alert(JSON.stringify(getResponse));
-	dialogs.alert(getResponse.building.name);
-	//dialogs.alert(getResponse.Dowing.machines);
-}, function (e) {
-    //// Argument (e) is Error!
-    throw exception(e);
-});
-
-	
-	dialogs.alert("test alert functionality").then(function() {console.log("Dialog Closed.");});
-	//dialogs.alert(getResponse.name);
-	
-	var response;
-	http.request({
-		url: "http://10.0.2.2:3000/buildings",
-		method: "POST",
-		headers: { "Content-Type": "application/json"},
-	content: JSON.stringify({name: "Drawing", machines: ["Espresso machine", "big light"]})
-		}).then(function(r) { 
-		response = r.content.toJSON();
-		alert(response)
-		}, function(e) {
-			throw exception(e)
-		});
 		
+		http.getJSON("http://10.0.2.2:3000/buildings/").then(function (r) {
+			getResponse = r;
+			for(var i = 0; i < getResponse.length;i++)
+			{	//asynchronous function that populates our marker list.
+				dialogs.alert(getResponse[i].name);
+				var marker = new mapsModule.Marker();
+				var building = getResponse[i];
+				var buildLatLng = latLngToMaps(getResponse[i].latlng);
+				marker.title = getResponse.name;
+				marker.position = mapsModule.Position.positionFromLatLng(
+				buildLatLng[0], buildLatLng[1]);
+				mapView.addMarker(marker);
+			}
+	
+	
+		}, function (e) {
+    throw exception(e);
+		});	
+
+	}
+
 
 	    return viewModel;
 }

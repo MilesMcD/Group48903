@@ -8,7 +8,8 @@ module.exports = function(app) {
 	//building list routes
 	app.route("/buildings")
 		.get(buildList.list_all_buildings)
-		.post(buildList.create_a_building);
+		.post(buildList.create_a_building)
+		.delete(buildList.delete_all_buildings);
 		
 		
 	app.route("/buildings/:buildName")

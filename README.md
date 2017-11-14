@@ -3,3 +3,20 @@ A hybrid application utilizing the Google Maps API to present users with informa
 Authors: Miles McDowall,yz
 Hello everyone! We don't have any code yet, but let's try branching and merging by editing this README.
 
+
+POST example:
+/*	Example POST code
+	var response;
+	http.request({
+		url: "http://10.0.2.2:3000/buildings",
+		method: "POST",
+		headers: { "Content-Type": "application/json"},
+	content: JSON.stringify({name: "Drawing", machines: ["Espresso machine", "big light"]})
+		}).then(function(r) { 
+		response = r.content.toJSON();
+		alert(response)
+		}, function(e) {
+			throw exception(e)
+		});
+	*/
+
