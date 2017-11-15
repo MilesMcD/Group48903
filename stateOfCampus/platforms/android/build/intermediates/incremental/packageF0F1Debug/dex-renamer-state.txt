@@ -1,0 +1,4 @@
+#Wed Nov 08 14:09:48 EST 2017
+base.0=C\:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0F1\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0F1\\debug\\folders\\1000\\1f\\main\\classes.dex
