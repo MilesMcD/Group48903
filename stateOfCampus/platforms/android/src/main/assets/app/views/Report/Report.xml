@@ -1,8 +1,0 @@
-<Page loaded="loaded">
-    <StackLayout>
-        <Label text="{{ Report}}" class="title"/>
-        <TextField text="{{ Writing your issues here. }}"  hint="Problems,like broken machine." />
-
-        <Button text="Submit" class="link" tap="report" />
-    </StackLayout>
-</Page>
