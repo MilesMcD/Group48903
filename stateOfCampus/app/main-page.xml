@@ -30,11 +30,12 @@ https://docs.nativescript.org/ui/components.
     -->
 
 <GridLayout>
-<maps:mapView
+	<maps:mapView
     latitude="{{ latitude }}"
     longitude="{{ longitude }}"
     zoom="{{ zoom }}"
     mapReady="{{ onMapReady }}"
-/>
+	/>
+	<Button text="Lists" class="listButton" tap="moveToList" horizontalAlignment="left"/>
   </GridLayout>
 </Page>
