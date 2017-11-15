@@ -1,0 +1,31 @@
+{
+  "name": "buildingsapi",
+  "version": "1.0.0",
+  "description": "RESTful service for State of Campus",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\ \"ERROR: no test specified\\\" && exit1\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilesMcD/Group48903.git"
+  },
+  "keywords": [
+    "[\"RESTful\"",
+    "\"API\"",
+    "\"Buildings\"]"
+  ],
+  "author": "Miles McDowall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilesMcD/Group48903/issues"
+  },
+  "homepage": "https://github.com/MilesMcD/Group48903#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.0",
+    "nodemon": "^1.12.1"
+  }
+}

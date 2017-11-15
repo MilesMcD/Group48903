@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-animated-vector-drawable-25.3.1_fc4de8293ae225e357687f2722670647bcad2629.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-compat-25.3.1_a1144abc3d52e23146721af5c06d7324d642eb90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\stateofCampus\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eb6078500d1af5e7b663871706674405c57292a3">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\stateofCampus-runtime-unspecified_b615686acd8766331ae4d576c41b934ceba75873.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\stateofCampus\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\binding-generator_a592c830d8d3e7a42603c2f46e70c3509ba68f49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\support-annotations-25.3.1_80203652eccf6e9fae272e793132ef7b0b69c824.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-widgets-release_4217a3bb8251df221b07809ce75acc437ed77b0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-transition-25.3.1_e00d6da25e409872ff7f6164059bbd1110d947f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.android.gms-play-services-base-10.2.6_a1cf95b7cc83b66b0792c0bdb3609bc0fb41f3be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-media-compat-25.3.1_1f2254c92526f4cb11ec569436c17c9779046fa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-recyclerview-v7-25.3.1_2b3a6298392a5646cec2ef204aed9cbd682b655d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-fragment-25.3.1_157afda62d55eb5b72868793fd93e3674cc4ae6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0c6924cbba8248329a8c58ead6a380efe7eee76e">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.android.gms-play-services-maps-10.2.6_6a68f589d4d038fe367126df5e762ea61b6812f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.android.gms-play-services-tasks-10.2.6_41d6d04ce1d17ed155490fe4afa949852b4f97d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-design-25.3.1_3e0fa92e8a840e833317537f418b3e20897a3519.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-core-utils-25.3.1_8e0e52632cd3ef8a79f61352a85310ab3ede677c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-appcompat-v7-25.3.1_c5e23fe29ea01d2e7fe07261f0c8c5bb28197804.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-core-ui-25.3.1_0391e03a9d6297bb9ad953aa73fab264e25f3ff7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.android.gms-play-services-basement-10.2.6_9bda4ac587a5c13a6e47e11e4571518041afa97e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-vector-drawable-25.3.1_c6282d17de7d36dca85c26e6a049e3c6687f867b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-v4-25.3.1_9d2a0854a22690983732c21e7f6406c81d76514c.jar" />
+    </item>
+
+</items>
