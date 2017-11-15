@@ -19,6 +19,9 @@ components that have the btn class name.
 .btn {
     font-size: 18;
 }
+button{
+	margin-bottom: 550;
+}
 .link {
     background-color: transparent;
 }

@@ -10,7 +10,7 @@ https://docs.nativescript.org/ui/components.
     http://docs.nativescript.org/ui/action-bar
     -->
     <Page.actionBar>
-        <ActionBar title="State of Campus" icon="" class="action-bar">
+        <ActionBar title="State of Campus" icon="image/logo.png" class="action-bar">
         </ActionBar>
     </Page.actionBar>
     <!--
@@ -36,6 +36,6 @@ https://docs.nativescript.org/ui/components.
     zoom="{{ zoom }}"
     mapReady="{{ onMapReady }}"
 />
-<Button text="Lists" class="link" tap="moveToList" horizontalAlignment="center"/>
+<Button text="Lists" class="link" tap="moveToList" horizontalAlignment="left"/>
   </GridLayout>
 </Page>
