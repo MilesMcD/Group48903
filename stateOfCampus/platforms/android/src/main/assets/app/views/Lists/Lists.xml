@@ -1,0 +1,8 @@
+<Page loaded="loaded">
+    <StackLayout>
+        <Image src="res://logo" stretch="none" horizontalAlignment="left"/>
+		<Button text="Building List" class="link" tap="moveToDescription"/>
+        
+        <Button text="Back" tap="back" class="back"/>
+    </StackLayout>
+</Page>

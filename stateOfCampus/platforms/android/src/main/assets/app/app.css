@@ -19,3 +19,19 @@ components that have the btn class name.
 .btn {
     font-size: 18;
 }
+.link {
+    background-color: transparent;
+}
+.hints {
+    color: gray;
+	font-size:11;
+}
+.title{
+    color: black;
+	font-size:20;
+	font-weight: bold;
+}
+.redLink {
+    color: red;
+	background-color: transparent;
+}

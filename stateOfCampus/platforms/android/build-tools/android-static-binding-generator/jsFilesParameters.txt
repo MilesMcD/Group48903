@@ -156,3 +156,6 @@ C:\Users\YZ\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main
 C:\Users\YZ\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\utils\utils.js
 C:\Users\YZ\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xhr\xhr.js
 C:\Users\YZ\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xml\xml.js
+C:\Users\YZ\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\views\Description\Description.js
+C:\Users\YZ\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\views\Lists\Lists.js
+C:\Users\YZ\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\views\Report\Report.js
