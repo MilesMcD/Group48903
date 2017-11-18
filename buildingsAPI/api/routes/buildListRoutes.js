@@ -1,6 +1,10 @@
 'use strict';	
 
+/*
+This script handles our server routing addresses. It tells our server how we will be calling our routes.
 
+By Miles McDowall
+*/
 module.exports = function(app) {
 	
 	var buildList = require("../controllers/buildListController");
@@ -15,6 +19,7 @@ module.exports = function(app) {
 	app.route("/buildings/:buildName")
 		.get(buildList.list_a_building)
 		.delete(buildList.delete_a_building);
+		.put(buildList.update_a_machine);
 	/*	
 	app.route("/buildings/:machineId")
 		.get(buildList.get_a_machine)

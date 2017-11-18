@@ -2,8 +2,13 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
+/*
+This script provides our database with a "skeleton" for every entry.
 
+By Miles McDowall
+*/
 //Schema for database insertions
+//"default" and "required" text written by Torey.
 var BuildingSchema = new Schema({
 name: {type: String,
 		   required: "Please enter a building name."
@@ -20,14 +25,11 @@ hours: {type: String,
 latlng: {type: String,
 		   required: "Please enter the location of the building."
 		  },
-condition: {type: String,
-		   required: "Please enter the condition of the building's machine(s)."
-		  },
 machines: {type: Array,
-		   default: []
+		   default: ["Water Fountain"]
 		  },
 malfunction: {type: Array,
-		   default: []
+		   default: [0]
 		  }
 
 

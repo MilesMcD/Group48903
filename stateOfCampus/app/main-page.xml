@@ -1,4 +1,13 @@
 <!--
+TUTORIAL FOR GEOLOCATION & BASIC FRAMEWORK PROVIDED BY: https://code.tutsplus.com/tutorials/code-a-real-time-nativescript-app-geolocation-and-google-maps--cms-29001
+by Wernher-Bel Ancheta
+
+/*
+This XML markup page handles layout & styling for our main page. It references scripts from the main view model through the attached main-page.js
+
+By Miles McDowall
+*/
+
 The markup in NativeScript apps contains a series of user interface components, each
 of which NativeScript renders with a platform-specific iOS or Android native control.
 You can find a full list of user interface components you can use in your app at

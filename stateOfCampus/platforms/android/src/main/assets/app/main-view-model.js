@@ -60,11 +60,10 @@ function createViewModel() {
 			getResponse = r;
 			for(var i = 0; i < getResponse.length;i++)
 			{	//asynchronous function that populates our marker list.
-				dialogs.alert(getResponse[i].name);
 				var marker = new mapsModule.Marker();
 				var building = getResponse[i];
 				var buildLatLng = latLngToMaps(getResponse[i].latlng);
-				marker.title = getResponse.name;
+				marker.title = getResponse[i].name;
 				marker.position = mapsModule.Position.positionFromLatLng(
 				buildLatLng[0], buildLatLng[1]);
 				mapView.addMarker(marker);
