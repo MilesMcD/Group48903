@@ -1,23 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\YZ\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\icon.png",
-        "source": "C:\\Users\\YZ\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\src\\main\\res\\drawable-mdpi\\icon.png"
-    },
-    {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\icon.png",
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\src\\main\\res\\drawable-mdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\background.png",
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\src\\main\\res\\drawable-mdpi\\background.png"
-    },
-    {
-        "merged": "C:\\Users\\YZ\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\background.png",
-        "source": "C:\\Users\\YZ\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\src\\main\\res\\drawable-mdpi\\background.png"
-    },
-    {
-        "merged": "C:\\Users\\YZ\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\logo.png",
-        "source": "C:\\Users\\YZ\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\src\\main\\res\\drawable-mdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\logo.png",
