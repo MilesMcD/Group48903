@@ -1,0 +1,29 @@
+<Page loaded="loaded">
+    <GridLayout columns="3, *, auto" rows="8, *">
+		<Image row="0" col="0" src="~/images/HicksCenter.jpg" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+		<Button row="0" col="3"  text="Hicks Center" class="link" tap="moveToDescription"/>
+		
+		<Image row="1" col="0"  src="~/images/FineArtCenter.jpg" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+        <Button row="1" col="3" text="Fine arts building" class="link" tap="moveToDescription"/>
+		
+		<Image row="2" col="0"  src="~/images/Dewing.jpg" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+		<Button row="2" col="3"  text="Dewing" class="link" tap="moveToDescription"/>
+		
+		<Image row="3" col="0"  src="~/images/Dow.jpg" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+		<Button row="3" col="3"  text="Dow science department" class="link" tap="moveToDescription"/>
+		
+		<Image row="4" col="0"  src="~/images/logo.png" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+		<Button row="4" col="3"  text="Anderson Athletic Center" class="link" tap="moveToDescription"/>
+		
+		<Image row="5" col="0" src="~/images/logo.png" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+		<Button row="5" col="3"  text="Mandelle Hall" class="link" tap="moveToDescription"/>
+		
+		<Image row="6" col="0"  src="~/images/Library.jpg" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+		<Button row="6" col="3"  text="Library" class="link" tap="moveToDescription"/>
+		
+		<Image row="7" col="0"  src="~/images/logo.png" stretch="none" class ="bPictures" horizontalAlignment="left"/>
+		<Button row="7" col="3"  text="Arcus Center" class="link" tap="moveToDescription"/>
+		
+        <Button row="8" col="1"  text="Back" tap="back" class="back"/>
+    </GridLayout>
+</Page>
