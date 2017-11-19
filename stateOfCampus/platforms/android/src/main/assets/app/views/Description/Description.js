@@ -1,6 +1,8 @@
 var dialogsModule = require("ui/dialogs");
 var frameModule = require("ui/frame");
-var topmost = frameModule.topmost();
+
+var UserViewModel = require("../../shared/view-models/user-view-model");
+var user = new UserViewModel();
 
 exports.loaded = function(args) {
     var page = args.object;
@@ -8,12 +10,14 @@ exports.loaded = function(args) {
 };
 
 function moveToReport() {
+    var topmost = frameModule.topmost();
     topmost.navigate("views/Report/Report");
-};
+}
 
 exports.moveToReport = function() {
     moveToReport();
 };
 exports.back = function() {
-    topmost.goBack();
+    var topmost = frameModule.topmost();
+    topmost.navigate("views/Lists/Lists");
 };
