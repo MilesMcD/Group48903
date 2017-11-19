@@ -1,4 +1,5 @@
-
+var dialogsModule = require("ui/dialogs");
+var frameModule = require("ui/frame");
 var createViewModel = require("./main-view-model").createViewModel;
 
 function onNavigatingTo(args) {
