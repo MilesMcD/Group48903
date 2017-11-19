@@ -4,7 +4,8 @@ var pageModule = require("tns-core-modules/ui/page");
 var { Accuracy } = require("ui/enums");
 var dialogs = require("ui/dialogs");
 var http = require("http");
-
+var frameModule = require("ui/frame");
+var topmost = frameModule.topmost();
 
 /*
 	Hicks: 42.289148, -85.600481
@@ -45,6 +46,10 @@ return  latLng;
 	}
 
 var mapView;
+
+exports.moveToList = function(){
+	topmost.navigate("view/Lists/Lists");
+};
 function createViewModel() {
     var viewModel = new Observable();
     viewModel.latitude = 42.290447;
@@ -77,10 +82,6 @@ function createViewModel() {
     //// Argument (e) is Error!
     throw exception(e);
 });
-
-	
-	dialogs.alert("test alert functionality").then(function() {console.log("Dialog Closed.");});
-	//dialogs.alert(getResponse.name);
 	
 	var response;
 	http.request({

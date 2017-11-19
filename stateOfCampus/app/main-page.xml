@@ -13,6 +13,6 @@
     zoom="{{ zoom }}"
     mapReady="{{ onMapReady }}"
 	/>
-	<Button text="Lists" class="listButton" tap="moveToList" horizontalAlignment="left"/>
+	<Button text="Lists" class="listButton"  horizontalAlignment="left"/>
   </GridLayout>
 </Page>

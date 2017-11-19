@@ -1,4 +1,4 @@
-<Page loaded="loaded">
+<Page>
     <GridLayout columns="3, *, auto" rows="8, *">
 		<Image row="0" col="0" src="~/images/HicksCenter.jpg" stretch="none" class ="bPictures" horizontalAlignment="left"/>
 		<Button row="0" col="3"  text="Hicks Center" class="link" tap="moveToDescription"/>
