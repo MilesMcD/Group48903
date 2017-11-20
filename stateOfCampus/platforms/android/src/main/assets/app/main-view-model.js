@@ -1,3 +1,6 @@
+
+
+
 var Observable = require("data/observable").Observable;
 var mapsModule = require("nativescript-google-maps-sdk");
 var pageModule = require("tns-core-modules/ui/page");
@@ -7,28 +10,19 @@ var http = require("http");
 
 
 /*
-	Hicks: 42.289148, -85.600481
-	Stetson: 42.289628, -85.601523
-	Dewing: 42.290112, -85.601899
-	Mandelle: 42.290104, -85.601009
-	Olds Upton: 42.290064, -85.600054
-	Hoben: 42.289604, -85.599475
-	DeWaters: 42.289294, -85.602399 	
-	Trowbridge: 42.289712, -85.602685
-	Arcus Center: 42.290133, -85.603968
-	Harmon: 42.290089, -85.599326
-	Upjohn Library: 42.290741, -85.601811
-	Fine Arts Building: 42.290798, -85.600641
-	Dow Science Center: 42.291871, -85.600345
-	Severn: 42.291458, -85.598401
-	Crissey: 42.291176, -85.598016
-	
+TUTORIAL FOR GEOLOCATION & BASIC FRAMEWORK PROVIDED BY: https://code.tutsplus.com/tutorials/code-a-real-time-nativescript-app-geolocation-and-google-maps--cms-29001
+by Wernher-Bel Ancheta
+
+This page builds our map from the database. A function in the main-page is used to handle marker events, which allow us to access building pages.
+
+By Miles McDowall
+
 	*/
 //var testLocs = ["42.289148, -85.600481", "42.289628, -85.601523", "42.290112, -85.601899", "42.290104, -85.601009", "42.290064, -85.600054", "42.289604, -85.599475"];
 
 /*
 This function will take strings of format "lat, lng" and turn them into an integer array.
-It strips most punctuation to be safe.
+It strips most punctuation to be safe. We use this to populate our markers.
  */
 function latLngToMaps(locString) {
 var cleaned = locString.replace(/[,\/#!$%\^&\*;:{}=_`~()]/g,"");

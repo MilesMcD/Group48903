@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\exception_tab.xml",
-        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\src\\debug\\res\\layout\\exception_tab.xml"
-    },
-    {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\exception_tab.xml",
+        "source": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\src\\debug\\res\\layout\\exception_tab.xml"
     },
     {
         "merged": "C:\\Users\\Miles\\Documents\\GitHub\\Group48903\\stateOfCampus\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout\\design_layout_snackbar.xml",

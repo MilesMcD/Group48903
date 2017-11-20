@@ -1,0 +1,28 @@
+
+<!-- YZ wrote this. Building Name and Description: are placeholders for variables that he could not set up.
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded">
+    <StackLayout>
+
+        <Label text="{{ Building Name }}"  class="title"/>
+        <Label text="{{ Description: }}" class="description"/>
+
+		<Label text="{{If you get any question,please report!}}" class="hints" />
+        <Button text="Report Now" class="redLink"/>
+		<Button text="back" tap="back" class="link"/>
+    </StackLayout>
+</Page>
+
+Uncommented is written by Miles McDowall
+-->
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Label id="name" text="This Is A Page" class="title"/>
+	<ScrollView orientation="vertical">
+		<Text-view id="desc" editable = "false"   text="This Is A TextView"/>
+	</ScrollView>
+	<Text-view id="hours" editable = "false"   text="This Is A TextView"/>
+	<Text-view id="machines" editable = "false"   text="This Is A TextView"/>
+	<Button text="Update Status" tap="statusReport"/>
+  </StackLayout>
+</Page>

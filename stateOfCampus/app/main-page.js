@@ -18,17 +18,25 @@ var createViewModel = require("./main-view-model").createViewModel;
 var mapsModule = require("nativescript-google-maps-sdk");
 var dialog = require("ui/dialogs");
 var http = require("http");
+var frameModule = require("ui/frame");
 
 
 /*
 Event handler for moving to the correct page. Currently displays marker information in dialog and console. 
 */
 function onMarkerEvent(args) {
-	dialog.alert(args.marker.title);
+	var navigationOptions={
+        moduleName:'buildings/Description',
+        context:{param1: args.marker.title
+                }
+    }
+    
+
 	//args.marker.title  "Dewing"
    console.log("Marker Event: '" + args.eventName
                 + "' triggered on: " + args.marker.title
                 + ", Lat: " + args.marker.position.latitude + ", Lon: " + args.marker.position.longitude, args);
+	frameModule.topmost().navigate(navigationOptions);
 }
 function onNavigatingTo(args) {
 

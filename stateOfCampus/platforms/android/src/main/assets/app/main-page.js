@@ -2,6 +2,7 @@
 TUTORIAL FOR GEOLOCATION & BASIC FRAMEWORK PROVIDED BY: https://code.tutsplus.com/tutorials/code-a-real-time-nativescript-app-geolocation-and-google-maps--cms-29001
 by Wernher-Bel Ancheta
 
+Some documentation comes from his tutorial.
 
 In NativeScript, a file with the same name as an XML file is known as
 a code-behind file. The code-behind is a great place to place your view
@@ -9,25 +10,33 @@ logic, and to set up your page’s data binding.
 */
 
 /*
-NativeScript adheres to the CommonJS specification for dealing with
-JavaScript modules. The CommonJS require() function is how you import
-JavaScript modules defined in other files.
-*/ 
+This script handles the scripting on our main page. It calls our main view model.
+
+By Miles McDowall
+*/
 var createViewModel = require("./main-view-model").createViewModel;
 var mapsModule = require("nativescript-google-maps-sdk");
 var dialog = require("ui/dialogs");
 var http = require("http");
+var frameModule = require("ui/frame");
 
 
 /*
 Event handler for moving to the correct page. Currently displays marker information in dialog and console. 
 */
 function onMarkerEvent(args) {
-	dialog.alert(args.marker.title);
+	var navigationOptions={
+        moduleName:'buildings/Description',
+        context:{param1: args.marker.title
+                }
+    }
+    
+
 	//args.marker.title  "Dewing"
    console.log("Marker Event: '" + args.eventName
                 + "' triggered on: " + args.marker.title
                 + ", Lat: " + args.marker.position.latitude + ", Lon: " + args.marker.position.longitude, args);
+	frameModule.topmost().navigate(navigationOptions);
 }
 function onNavigatingTo(args) {
 

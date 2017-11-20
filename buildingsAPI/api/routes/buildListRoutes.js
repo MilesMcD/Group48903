@@ -18,8 +18,8 @@ module.exports = function(app) {
 		
 	app.route("/buildings/:buildName")
 		.get(buildList.list_a_building)
-		.delete(buildList.delete_a_building);
-		.put(buildList.update_a_machine);
+		.delete(buildList.delete_a_building)
+		.put(buildList.update_machine);
 	/*	
 	app.route("/buildings/:machineId")
 		.get(buildList.get_a_machine)

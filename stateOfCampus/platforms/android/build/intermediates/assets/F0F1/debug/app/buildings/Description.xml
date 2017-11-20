@@ -1,0 +1,22 @@
+
+<!--
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded">
+    <StackLayout>
+
+        <Label text="{{ Building Name }}"  class="title"/>
+        <Label text="{{ Description: }}" class="description"/>
+
+		<Label text="{{If you get any question,please report!}}" class="hints" />
+        <Button text="Report Now" class="redLink"/>
+		<Button text="back" tap="back" class="link"/>
+    </StackLayout>
+</Page>
+-->
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Label id="name" text="This Is A Page" class="title"/>
+	<Textview id="desc" text="This Is A TextView"/>
+	<Button text="Report Now"/>
+  </StackLayout>
+</Page>
