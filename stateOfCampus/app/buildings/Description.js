@@ -23,7 +23,7 @@ function onNavigatingTo(args) {
 	page.addCss(".title { font-size: 32; }");
 	var buildingName = page.navigationContext.param1;
 	
-	//Build the page
+	//Build the page using a GET request
 	http.getJSON("http://10.0.2.2:3000/buildings/" + buildingName).then(function (r) {	
 	buildingInfo = r;
 	
@@ -39,6 +39,7 @@ function onNavigatingTo(args) {
 	//Check for unavailable services.
 	for (var i = 0;i<r.building.machines.length;i++)
 	{
+		machines.text += "[" + i + "]: "
 		for (var j = 0; j<r.building.malfunction.length; j++)
 		{
 			
@@ -47,7 +48,7 @@ function onNavigatingTo(args) {
 				machines.text += "Unavailable: "
 			}
 		}
-		machines.text += r.building.machines[i] + "\n";
+		machines.text +=  r.building.machines[i] + "\n";
 		
 	}
 		}, function (e) {
@@ -70,7 +71,7 @@ function statusReport(args) {
 			var theMachine = buildingInfo.building.machines[responseInt];
 			var malfunctionArray = buildingInfo.building.malfunction;
 			console.log(theMachine);
-			//Check to see if the machine is in the array. Remove it if it is. Yep.
+			//Check to see if the machine is in the array. Remove it if it is.
 			var machIndex = malfunctionArray.indexOf(theMachine);
 			console.log(machIndex);
 			if (machIndex > -1)
@@ -81,6 +82,7 @@ function statusReport(args) {
 			{
 				malfunctionArray.push(theMachine);
 			}
+			//Send the updated array to the server.
 			http.request({
 			url: "http://10.0.2.2:3000/buildings/" + buildingInfo.building.name,
 			method: "PUT",

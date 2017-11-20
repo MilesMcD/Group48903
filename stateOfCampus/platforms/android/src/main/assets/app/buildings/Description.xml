@@ -12,17 +12,17 @@
     </StackLayout>
 </Page>
 
-Uncommented is written by Miles McDowall
+Uncommented code has been written by Miles McDowall
 -->
 
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
-  <StackLayout>
-    <Label id="name" text="This Is A Page" class="title"/>
-	<ScrollView orientation="vertical">
+  <StackLayout style="background-color: DeepSkyBlue;">
+    <Label id="name" text="This Is A Page" class="title" style="background-color: DeepSkyBlue;"/>
+	<ScrollView orientation="vertical"  style="background-color: White;">
 		<Text-view id="desc" editable = "false"   text="This Is A TextView"/>
 	</ScrollView>
-	<Text-view id="hours" editable = "false"   text="This Is A TextView"/>
-	<Text-view id="machines" editable = "false"   text="This Is A TextView"/>
+	<Text-view id="hours" editable = "false"   text="This Is A TextView" style="background-color: White;"/>
+	<Text-view id="machines" editable = "false"   text="This Is A TextView" style="background-color: White;"/>
 	<Button text="Update Status" tap="statusReport"/>
   </StackLayout>
 </Page>
