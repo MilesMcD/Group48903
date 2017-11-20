@@ -2,6 +2,7 @@ C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\m
 C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\bundle-config.js
 C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\main-page.js
 C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\main-view-model.js
+C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\buildings\Description.js
 C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\tns_modules\nativescript-google-maps-sdk\map-view-common.js
 C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\tns_modules\nativescript-google-maps-sdk\map-view.js
 C:\Users\Miles\Documents\GitHub\Group48903\stateOfCampus\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
