@@ -20,7 +20,9 @@ This code programmatically fills in information about the buildings using a get 
 */
 function onNavigatingTo(args) {
     var page = args.object;
+	//basic styling.
 	page.addCss(".title { font-size: 32; }");
+	//grab the building name from the context with which we called the page for the GET request.
 	var buildingName = page.navigationContext.param1;
 	
 	//Build the page using a GET request

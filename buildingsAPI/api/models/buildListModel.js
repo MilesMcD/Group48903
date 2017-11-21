@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 /*
-This script provides our database with a "skeleton" for every entry.
+This script ensures that we have a set structure for every entry in our database.
 
 By Miles McDowall
 */

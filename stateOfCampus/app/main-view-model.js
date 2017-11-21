@@ -18,7 +18,7 @@ This page builds our map from the database. A function in the main-page is used 
 By Miles McDowall
 
 	*/
-//var testLocs = ["42.289148, -85.600481", "42.289628, -85.601523", "42.290112, -85.601899", "42.290104, -85.601009", "42.290064, -85.600054", "42.289604, -85.599475"];
+//var testLocs = ["42.289148, -85.600481", "42.289628, -85.601523", "42.290112, -85.601899", "42.290104, -85.601009", "42.290064, -85.600054", "42.289604, -85.599475"]; //Use this if the database breaks.
 
 /*
 This function will take strings of format "lat, lng" and turn them into an integer array.

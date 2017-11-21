@@ -1,6 +1,6 @@
 //server functionality created using the following tutorial: https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
 //By Olatunde Garuba
-//Testing Assistance provided by Erik Hartig
+//Testing assistance & advice provided by Erik Hartig
 //Server runs on localhost:3000 by default.
 
 /*

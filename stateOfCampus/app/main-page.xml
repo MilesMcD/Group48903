@@ -3,7 +3,7 @@ TUTORIAL FOR GEOLOCATION & BASIC FRAMEWORK PROVIDED BY: https://code.tutsplus.co
 by Wernher-Bel Ancheta
 
 /*
-This XML markup page handles layout & styling for our main page. It references scripts from the main view model through the attached main-page.js
+This XML markup page handles layout & styling for our main page. It references scripts from the main view model through the attached main-page.js. As it is a tutorial page offered by Nativescript, I have left documentation intact for the benefit of myself & the group.
 
 By Miles McDowall
 */

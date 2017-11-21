@@ -15,14 +15,10 @@ module.exports = function(app) {
 		.post(buildList.create_a_building)
 		.delete(buildList.delete_all_buildings);
 		
-		
+	//specific buildings
 	app.route("/buildings/:buildName")
 		.get(buildList.list_a_building)
 		.delete(buildList.delete_a_building)
 		.put(buildList.update_machine);
-	/*	
-	app.route("/buildings/:machineId")
-		.get(buildList.get_a_machine)
-		.put(buildList.update_machine);
-	*/
+
 };

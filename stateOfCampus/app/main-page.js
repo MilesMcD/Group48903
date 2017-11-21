@@ -22,7 +22,10 @@ var frameModule = require("ui/frame");
 
 
 /*
-Event handler for moving to the correct page. Currently displays marker information in dialog and console. 
+Event handler for moving to the correct page. It navigates to the description page with the building's name as context. This name is used to build the page. 
+
+Additionally, this event logs the clicked marker in console for testing.
+
 */
 function onMarkerEvent(args) {
 	var navigationOptions={
@@ -41,7 +44,9 @@ function onMarkerEvent(args) {
 function onNavigatingTo(args) {
 
 /*	
-	populate building info in the database. Uncommenting this code will duplicate the database if you already have a copy!
+	populate building info in the database. Uncommenting this code will duplicate the database if you already have a copy! Contained within is our full set of building information as well as a For loop that places each entry into the database. 
+	
+	Entries written by Torey Halsey. HTTP requests written by Miles McDowall
 */
 /*
 var campusBuildings =
